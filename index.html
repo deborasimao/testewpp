@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Consulta</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #e0f7fa, #80deea);
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #00796b; /* Cor verde suave para título */
+        }
+
+        p {
+            margin-bottom: 30px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .btn-robust {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            color: #fff;
+            background: linear-gradient(45deg, #007bff, #0056b3);
+            border: none;
+            border-radius: 12px;
+            text-decoration: none;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transition: all 0.4s ease;
+        }
+
+        .btn-robust:hover {
+            background: linear-gradient(45deg, #0056b3, #00408a);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            transform: translateY(-4px);
+        }
+
+        .btn-robust:active {
+            background: linear-gradient(45deg, #00408a, #003366);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transform: translateY(0);
+        }
+
+        .btn-robust:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Agende sua Consulta</h1>
+        <p>Para agendar uma consulta com o Dr. Luciano Roale, clique no botão abaixo:</p>
+        <a href="https://wa.me/5512999998888?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Luciano%20Roale." 
+           target="_blank" 
+           class="btn-robust">
+            Agendar Consulta
+        </a>
+    </div>
+</body>
+</html>
